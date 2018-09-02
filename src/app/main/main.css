@@ -1,0 +1,21 @@
+li{
+    border: 1px solid #ccc;
+    list-style-type: none;
+    margin: 0;
+    flex-grow:1;
+    text-align: center;
+    background-color: #a5a6aa;
+    padding: 1%;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+}
+.active{
+    background-color: #587297;
+}
